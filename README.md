@@ -17,3 +17,5 @@
 - 归档页面自己添加即可；
 
 
+  [1]: https://github.com/probberechts/hexo-theme-cactus
+  [2]: https://alili.tech/
