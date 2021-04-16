@@ -3,8 +3,8 @@
  * 仙人掌(Cactus)是优雅简洁的暗色主题
  * @package Cactus Theme
  * @author Intern
- * @version 1.3.2
- * @link https://www.xde.io/
+ * @version 0.0.1
+ * @link https://github.com/xifanu/theme-typecho-cactus
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->need('header.php');
