@@ -1,8 +1,8 @@
 {
-    "name": "仙岛驿站",
-    "short_name": "仙岛驿站",
-    "theme_color": "#1d1f21",
-    "background_color": "#1d1f21",
+    "name": "网站名称",
+    "short_name": "网站名称",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone",
     "Scope": "/",
     "start_url": "/",

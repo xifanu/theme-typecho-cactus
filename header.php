@@ -12,7 +12,6 @@
 		<meta http-equiv="Cache-Control" content="no-siteapp"/>
 		<meta property="og:type" content="blog"/>
         <meta property="og:locale" content="zh_CN">
-        <meta property="og:image" content="<?php if($this->options->logoimg): ?><?php $this->options->logoimg();?><?php else : ?><?php $this->options->themeUrl('images/logo.png'); ?><?php endif; ?>">
         <meta property="og:site_name" content="<?php $this->options->title(); ?>">
 		 <?php if ($this->is('index')): ?>
 		 <meta name="description" itemprop="description" content="<?php $this->options->description() ?>">

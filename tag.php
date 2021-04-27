@@ -9,7 +9,7 @@ $this->need('header.php');
                     
                 </a>
 				<div id="title">
-                        <h1><?php $this->category() ?></h1>
+                        <h1><a href="<?php $this->options->siteUrl();?>"><?php $this->category() ?></a></h1>
                     </div>
                 <div id="nav">
                     <ul>

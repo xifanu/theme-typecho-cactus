@@ -8,7 +8,7 @@ $this->need('header.php');
                 <a href="<?php $this->options->siteUrl();?>">
                      
                     <div id="title">
-                        <h1><?php $this->title() ?></h1>
+                        <h1><a href="<?php $this->options->siteUrl();?>"><?php $this->title() ?></a></h1>
                     </div>
                 </a>
                 <div id="nav">

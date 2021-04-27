@@ -11,7 +11,6 @@ $this->need('header.php');
         <div class="content index width mx-auto px3 my4">
             <header id="header">
                 <a href="<?php $this->options->siteUrl();?>">
-                    
                     <div id="title">
                         <h1>归档</h1>
                     </div>

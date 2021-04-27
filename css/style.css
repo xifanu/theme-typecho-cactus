@@ -1,5 +1,5 @@
 @font-face{font-family:'Meslo LG';font-style:normal;src:local('Meslo LG S'),url(../lib/meslo-LG/fonts/MesloLGS-Regular.woff) format('woff')}
-::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar{height:6px}
 ::-webkit-scrollbar-thumb{background:#4a4a4a}
 a{-webkit-tap-highlight-color:transparent}
 .ml0,.mx0{margin-left:0}
@@ -145,7 +145,7 @@ font-size:14px;font-weight:400;text-rendering:geometricPrecision;/* min-height:1
 #header #nav ul .icon{display:none}
 #header #nav ul li:last-child{border-right:0}
 #header:hover #logo{-webkit-filter:none;filter:none}
-@media screen and (max-width:480px){#header #title{padding-top:9px;padding-bottom:9px}
+@media screen and (max-width:480px){#header #title{padding-top:20px;padding-bottom:5px}
 #header #nav ul a:hover{background:0 0}
 #header #nav ul li{display:none;border-right:0}
 #header #nav ul li.icon{display:inline-block;position:absolute;top:55px;right:1rem}
@@ -270,14 +270,14 @@ article .content .caption{color:color-grey;display:block;font-size:.9em;margin-t
 .blog-post-comments.v .vlist .vcard .vhead .vsys{background:0 0}
 .pagination a,.pagination a:hover{background-image:none}
 #footer,#footer a{color:#666}
-#footer{padding-top:10px;padding-bottom:10px;font-size:11px;max-width:700px;margin:0 auto 1rem;vertical-align:top}
+#footer{padding-top:1rem;padding-bottom:2rem;font-size:11px;max-width:700px;margin:0 auto 1rem;vertical-align:top}
 #footer ul{margin:0;padding:0;list-style:none}
 #footer li{display:inline-block;vertical-align:middle;border-right:1px solid #4a4a4a}
 #footer li:last-child{border-right:0;margin-right:0}
 #footer li:last-child a{margin-right:0}
 #footer a:hover{color:#999}
 #footer .footer-left{height:20px;line-height:25px;vertical-align:middle}
-@media (min-width:39rem){#footer{padding-top:20px;padding-bottom:20px}
+@media (min-width:39rem){#footer{padding-top:1rem;padding-bottom:2rem}
 #footer .footer-left{float:left}
 #footer .footer-right{float:right}
 }
