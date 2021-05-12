@@ -6,6 +6,9 @@ function themeConfig($form) {
     $favicon = new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, NULL, _t('favicon地址'), _t('一般为http://www.yourblog.com/image.ico,支持 https:// 或 //,留空则不设置favicon'));
     $form->addInput($favicon->addRule('xssCheck', _t('请不要在图片链接中使用特殊字符')));
 
+    $highlightjs = new Typecho_Widget_Helper_Form_Element_Text('highlightjs', NULL, NULL, _t('语法高亮jsCDN地址'), _t('一般为//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.2/build/highlight.min.js,支持 https:// 或 //,留空则使用默认高亮js'));
+    $form->addInput($highlightjs ->addRule('xssCheck', _t('请不要在图片链接中使用特殊字符')));
+
     $appleicon = new Typecho_Widget_Helper_Form_Element_Text('appleicon', NULL, NULL, _t('apple touch icon地址'), _t('一般为http://www.yourblog.com/image.png,支持 https:// 或 //,留空则不设置Apple Touch Icon'));
     $form->addInput($appleicon->addRule('xssCheck', _t('请不要在图片链接中使用特殊字符')));
 	$email = new Typecho_Widget_Helper_Form_Element_Text('email', NULL, NULL, _t('Email地址'), _t('邮箱地址 ,留空则不设置Email地址'));
@@ -47,7 +50,7 @@ function themeConfig($form) {
 
 function themeInit($archive) {
     if ($archive->is('index')) {
-        $archive->parameter->pageSize = 9; // 自定义条数
+        $archive->parameter->pageSize = 10; // 自定义条数
     }
 	if ($archive->is('single')) {  
     $archive->content = createCatalog($archive->content);//文章锚点实现

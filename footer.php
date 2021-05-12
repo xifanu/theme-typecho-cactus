@@ -52,7 +52,17 @@ $(function () {
 		<?php if ($this->is('post') || $this->is('page'))  : ?>
 		<link rel="stylesheet" href="<?php $this->options->themeUrl('css/lightbox.min.css'); ?>">
 		<script src="<?php $this->options->themeUrl('js/lightbox.min.js'); ?>"></script>
-		<script src="<?php $this->options->themeUrl('lib/highlight.min.js'); ?>"></script>
+
+
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/atom-one-light.css'); ?>">
+
+    <a href="<?php if($this->options->writing): ?><?php $this->options->writing();?><?php else : ?>archives.html<?php endif; ?>">文章</a>
+
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/atom-one-light.css'); ?>">
+    <!-- highlightjs -->
+		<script src="<?php if($this->options->highlightjs): ?><?php $this->options->highlightjs();?><?php else : ?><?php $this->options->themeUrl('lib/highlight.min.js'); ?><?php endif; ?>"></script>
+
+
 		<script>
 		$('#post-content img').wrap(function () {
 		return '<a href="' + this.src + '" title="' + this.alt + '" data-lightbox="roadtrip"></a>';

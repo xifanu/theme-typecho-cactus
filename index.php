@@ -100,7 +100,7 @@ $uid = $this->user->uid;
                                 <a href="<?php $this->permalink() ?>"><?php $this->sticky(38,'...'); $this->title(38,'...') ?></a>
                             </span>
                         </li>
-					 <?php endwhile; ?>
+					<?php endwhile; ?>
                     </ul>
                     
                     <?php $this->pageNav('&laquo; ', ' &raquo;'); ?>
