@@ -4,7 +4,7 @@
 - 主题移植至Hexo 同名主题 [hexo-theme-cactus][1]参考(抄)了部分 [Alili][2]的样式和功能。
 - 主题修改自：https://github.com/Seevil/cactus
 
-主题预览：https://te.auok.win
+主题预览：无
 
 主题说明：  
 1. 一切为了简单、简洁、快速；
